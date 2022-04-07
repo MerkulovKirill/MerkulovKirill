@@ -1,0 +1,9 @@
+long long int minFinder(long long int *a, long long int size) { 
+    long long int min = MAX;
+    for(int i = 0; i < size; ++i){
+        if(a[i] < min){
+            min = a[i];
+        }
+    }
+    return min;
+}
